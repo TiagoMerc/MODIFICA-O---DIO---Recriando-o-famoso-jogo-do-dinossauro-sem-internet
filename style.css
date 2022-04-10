@@ -1,0 +1,86 @@
+body {
+  background:  #fafafa;
+}
+
+.dino { /*Elemento por classe, o PONTO*/
+  width: 60px;
+  height: 60px;
+  background-image: url(dino.png);
+  position: absolute; /* Forma que o elemento vai ficar posicionado */
+  bottom: 0; /*Dizer que o elemento vai ficar em BAIXO*/
+  }
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 60px; /*altura*/
+  bottom: 0;
+  background-image: url(cactus.png);
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin-left: 360px;
+  padding: 290px;
+  font-size: 32px;
+  font-family: Arial;
+  text-decoration: none;
+  position: absolute;
+}
+/*Animações com CSS -  gire de maneira animada*/
+@keyframes slideright {
+  from {
+    background-position: 70000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
+
+.infor {
+  position: 20px;
+  text-align: center; 
+  margin-top: 80px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.reference {
+  margin: 12px;
+  margin-left: 24px;
+  margin-right: 120px;
+  text-align: justify;
+
+}
+
+#ref {
+  font-size: 24px;
+ font-weight: bold; /*Texto em negrito*/
+  text-align: center;
+}
+
+li {
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+ul {
+
+  text-decoration: none;
+  list-style-type: none; /*Tirar o ponto*/ 
+  margin-bottom: 12px;
+
+}
+

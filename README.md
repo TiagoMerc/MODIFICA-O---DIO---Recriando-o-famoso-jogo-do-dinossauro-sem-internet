@@ -14,7 +14,7 @@ Front-End | Intermediário
 **ESPECIALISTA:** [Celso Henrique](https://github.com/celso-henrique/)
 _________
 
-#### [Repositório Base](https://github.com/TiagoMerc/DIO---Recriando-o-famoso-jogo-do-dinossauro-sem-internet.git)
+##### [Repositório Base - clique aqui!](https://github.com/TiagoMerc/DIO---Recriando-o-famoso-jogo-do-dinossauro-sem-internet.git)
 
 
 #### Modificações:
